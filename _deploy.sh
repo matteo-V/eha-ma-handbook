@@ -4,7 +4,7 @@ set -e
 set -x 
 
 [ -z "${GITHUB_PAT}" ] && exit 0
-[ "${TRAVIS_BRANCH}" != "master" ] && exit 0
+[[ "${TRAVIS_BRANCH}" != "master" || "${TRAVIS_PULL_REQUEST" != "false"]] && exit 0
 
 git config --global user.email "ross@ecohealthalliance.org"
 git config --global user.name "Noam Ross"
