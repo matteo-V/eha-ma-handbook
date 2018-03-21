@@ -1,0 +1,3 @@
+# Visualization
+
+-   [Fundamentals of Data Visualization](http://serialmentor.com/dataviz/) by Claus Wilke is an excellent guide to making high-quality figures and R code is available for all of its examples.
